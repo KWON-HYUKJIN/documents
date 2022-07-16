@@ -1,10 +1,16 @@
 # Linux CentOS7
 
 #### Terminal Mode
-``` systemctl set-default multi-user.target ``` 
+``` 
+su 
+systemctl set-default multi-user.target 
+``` 
 
 #### Graphic Mode
-``` systemctl set-default graphical.target ```
+``` 
+su
+systemctl set-default graphical.target 
+```
 
 ---
 
