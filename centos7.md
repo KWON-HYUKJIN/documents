@@ -43,7 +43,7 @@ firewall-cmd --reload
 #### web console (cockpit)  
 ```
 yum install -y cockpit
-systemctl enable --now cookpit.socket
+systemctl enable --now cockpit.socket
 firewall-cmd --add-port=9090/tcp
 firewall-cmd --add-service=cockpit
 ${IP Address}:9090
